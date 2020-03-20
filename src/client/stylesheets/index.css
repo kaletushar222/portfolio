@@ -1,3 +1,66 @@
+/*
+	yellow : #f5d559;
+	blue : #3abcc1;
+*/
 .full_height{
-	height: 94vh;
+	height: 100vh;
+}
+
+.home-intro {
+	height: 100vh !important;
+    overflow: hidden;
+}
+
+.home-intro-container {
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    height: auto;
+}
+
+.home-intro-container .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background: black;
+    opacity: 0.8;
+}
+
+.home-intro-image {
+    width: 100%;
+}
+
+.home-intro-content {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    z-index: 100;
+}
+
+.home-intro-content > h1 > strong {
+    font-size: 60px;
+    color: white;
+}
+
+.home-intro-content > h2 {
+    color: white;
+}
+
+.center-align-text {
+    text-align: center !important;
+}
+
+.custom_yellow {
+	color : #FFFF00	;
+}
+
+.custom_blue {
+	color : #3abcc1;
+}
+
+.sidebar {
+	background-color : #eaeaea;
 }
