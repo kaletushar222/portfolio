@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react'
 
-class ComponentHomeIntro extends Component {
+class ComponentDashboardIntro extends Component {
 	render() {
         return(
         	<div className="full_height">
@@ -10,7 +10,7 @@ class ComponentHomeIntro extends Component {
                         <div className="overlay" />
                         <Image className="home-intro-image" alt="Tushar kale intro image" src="/portfolio/img/waterfall.jpg" />
                     </div>
-
+                    <br/><br/>
                     <div className="home-intro-content">
                         <h1><strong>Hii , I'm Tushar,</strong></h1>
                         <h2>A software engineer specialized in both </h2>
@@ -31,4 +31,4 @@ class ComponentHomeIntro extends Component {
     }
 }
 
-export default ComponentHomeIntro
+export default ComponentDashboardIntro

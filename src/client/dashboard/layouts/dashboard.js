@@ -10,13 +10,16 @@ import {
 import { Image, Header, Icon } from 'semantic-ui-react'
 
 
-import ComponentHomeContact from '../components/contact/Contact'
+import ComponentDashboardIntro from '../components/home/Intro'
+import ComponentDashboardContact from '../components/home/Contact'
+  
+
 const routes = [
   {
     path: '/',
     exact: true,
     sidebar: () => <div>HOME</div>,
-    main: () => <h2><ComponentHomeContact /></h2>
+    main: () => <ComponentDashboardIntro />
   },
   {
     path: '/portfolio',
@@ -31,7 +34,7 @@ const routes = [
   {
     path: '/contact',
     sidebar: () => <div>CONTACT</div>,
-    main: () => <h2>CONTACT !!</h2>
+    main: () => <ComponentDashboardContact />
   },
   {
     path: '/getintouch',
@@ -40,7 +43,7 @@ const routes = [
   }
 ]
 
-const SidebarExample = () => (
+const SidebarNavigation = () => (
     <Router>
         <div className="ui grid"> 
             <div className="three wide column">
@@ -71,25 +74,25 @@ const SidebarExample = () => (
                 <ul className="ui divided relaxed list">
                     <br/>
                     <div role="listitem" className="item">
-                        <i aria-hidden="true" className="github large icon middle aligned"></i>
+                        <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
                             <Link to="/"><h2>HOME</h2></Link>
                         </div>
                     </div>
                     <div role="listitem" className="item">
-                        <i aria-hidden="true" className="github large icon middle aligned"></i>
+                        <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
                             <Link to="/portfolio"><h2>PORTFOLIO</h2></Link>
                         </div>
                     </div>
                     <div role="listitem" className="item">
-                        <i aria-hidden="true" className="github large icon middle aligned"></i>
+                        <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
                             <Link to="/mycv"><h2>MY CV</h2></Link>
                         </div>
                     </div>
                     <div role="listitem" className="item">
-                        <i aria-hidden="true" className="github large icon middle aligned"></i>
+                        <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
                             <Link to="/contact"><h2>CONTACT</h2></Link>
                         </div>
@@ -110,6 +113,6 @@ const SidebarExample = () => (
   </Router>
 )
 
-export default SidebarExample
+export default SidebarNavigation
 
-render(<SidebarExample />, document.getElementById('root'));
+render(<SidebarNavigation />, document.getElementById('root'));
