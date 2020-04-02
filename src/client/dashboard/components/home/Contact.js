@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react'
 
 class ComponentDashboardContact extends Component {
   
@@ -14,41 +13,41 @@ class ComponentDashboardContact extends Component {
                     <h1><strong>Contact Me</strong></h1>
                     <div className="ui list">
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/google.png" />
+                            <img className="ui avatar image" src="/portfolio/img/google.png" alt="google" />
                             <div className="content">
                                <b>Gmail</b>
                                 <div className="description">
-                                    <a>kaletushar222@gmail.com </a>
+                                    <a href="#">kaletushar222@gmail.com </a>
                                 </div>
                             </div>
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/linkedin.png" />
+                            <img className="ui avatar image" src="/portfolio/img/linkedin.png" alt="linkedin" />
                             <div className="content">
                                 <b>LinkedIn</b>
                                 <div className="description">
-                                  <a href="https://www.linkedin.com/in/tusharkale22/" target="_blank">https://www.linkedin.com/in/tusharkale22</a>
+                                  <a href="https://www.linkedin.com/in/tusharkale22/" rel="noopener noreferrer" target="_blank">https://www.linkedin.com/in/tusharkale22</a>
                                 </div>
                             </div>
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/github.png" />
+                            <img className="ui avatar image" src="/portfolio/img/github.png" alt="github"/>
                             <div className="content">
                                 <b>Github</b>
                                 <div className="description">
-                                  <a href="https://github.com/kaletushar222" target="_blank">https://github.com/kaletushar222</a>
+                                  <a href="https://github.com/kaletushar222" target="_blank" rel="noopener noreferrer">https://github.com/kaletushar222</a>
                                 </div>
                             </div>
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/fb.png" />
+                            <img className="ui avatar image" src="/portfolio/img/fb.png" alt="facebook" />
                             <div className="content">
                                 <b>Facebook</b>
                                 <div className="description">
-                                  <a href="https://www.facebook.com/tushar.kale2" target="_blank">https://www.facebook.com/tushar.kale2</a>
+                                  <a href="https://www.facebook.com/tushar.kale2" rel="noopener noreferrer" target="_blank">https://www.facebook.com/tushar.kale2</a>
                                 </div>
                             </div>
                         </div>

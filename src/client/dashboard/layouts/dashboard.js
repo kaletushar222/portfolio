@@ -12,7 +12,7 @@ import { Image, Header, Icon } from 'semantic-ui-react'
 
 import ComponentDashboardIntro from '../components/home/Intro'
 import ComponentDashboardContact from '../components/home/Contact'
-  
+import ComponentDashboardPortfolio from '../components/home/Portfolio'
 
 const routes = [
   {
@@ -24,12 +24,7 @@ const routes = [
   {
     path: '/portfolio',
     sidebar: () => <div>PORTFOLIO</div>,
-    main: () => <h2>PORTFOLIO!!</h2>
-  },
-  {
-    path: '/mycv',
-    sidebar: () => <div>MY CV</div>,
-    main: () => <h2>MY CV !!</h2>
+    main: () => <ComponentDashboardPortfolio />
   },
   {
     path: '/contact',
@@ -48,15 +43,9 @@ const SidebarNavigation = () => (
         <div className="ui grid"> 
             <div className="three wide column bg-color">
                 <br/>
-                {/*<Card
-                                    image='/portfolio/img/Profile-white-bg.png'
-                                    header='Tushar Kale'
-                                    meta='Software Engineer'
-                                    description=''
-                                  />*/}
                 <div className="ui grid" style={{ marginLeft: '1%'}}> 
                     <div className="sixteen wide column">
-                        <Image src='/portfolio/img/Profile.jpeg' size='medium' circular/>
+                        <Image src='/portfolio/img/Profile.jpeg' alt="home" size='medium' circular/>
                     </div>
                     <br/>
                     <div>
@@ -88,7 +77,7 @@ const SidebarNavigation = () => (
                     <div role="listitem" className="item">
                         <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
-                            <Link to="/mycv"><h2>MY CV</h2></Link>
+                            <a href="/portfolio/pdf/TusharKale.pdf"><h2>MY CV</h2></a>
                         </div>
                     </div>
                     <div role="listitem" className="item">
