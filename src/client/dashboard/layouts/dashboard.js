@@ -46,7 +46,7 @@ const routes = [
 const SidebarNavigation = () => (
     <Router>
         <div className="ui grid"> 
-            <div className="three wide column">
+            <div className="three wide column bg-color">
                 <br/>
                 {/*<Card
                                     image='/portfolio/img/Profile-white-bg.png'

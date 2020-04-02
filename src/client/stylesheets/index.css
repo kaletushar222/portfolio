@@ -23,7 +23,6 @@
     width: 100%;
     position: absolute;
     top: 0px;
-    left: 14px;
     z-index: 2;
     background: black;
     opacity: 0.8;
@@ -196,4 +195,8 @@
 }
 .pc-container .pc-button.pc-button-cancel {
     color: #989898;
+}
+
+.bg-color {
+  background-color: #e2e2e2;
 }
