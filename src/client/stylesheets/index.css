@@ -3,7 +3,9 @@
 	blue : #3abcc1;
 */
 .full_height{
-	height: 100vh;
+	height: 97.5vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .home-intro {
@@ -199,4 +201,8 @@
 
 .bg-color {
   background-color: #e2e2e2;
+}
+
+.custom-font {
+  font-size: 16px;
 }

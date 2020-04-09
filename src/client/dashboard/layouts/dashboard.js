@@ -88,7 +88,7 @@ const SidebarNavigation = () => (
                     </div>
                 </ul>
             </div>
-            <div className="thirteen wide column">
+            <div className="thirteen wide column" style={{marginLeft: '-1%'}}>
                 {routes.map((route, index) => (
                     <Route
                         key={index}
