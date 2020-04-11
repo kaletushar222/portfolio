@@ -38,7 +38,7 @@ const routes = [
   }
 ]
 
-const current_route = "portfolio"
+const current_route = window.location.pathname
 
 const SidebarNavigation = () => (
     <Router>
@@ -64,6 +64,7 @@ const SidebarNavigation = () => (
 
                 <ul className="ui divided relaxed list">
                     <br/>
+
                     <div role="listitem" className="item">
                         <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
@@ -73,10 +74,7 @@ const SidebarNavigation = () => (
                     <div role="listitem" className="item">
                         <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
-                            {
-                                current_route == "portfolio"?<Link to="/portfolio" className="active"><h2>PORTFOLIO</h2></Link>:
-                                <Link to="/portfolio"><h2>PORTFOLIO</h2></Link>
-                            }
+                            <Link to="/portfolio"><h2>PORTFOLIO</h2></Link>
                         </div>
                     </div>
                     <div role="listitem" className="item">
