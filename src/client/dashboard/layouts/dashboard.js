@@ -38,6 +38,8 @@ const routes = [
   }
 ]
 
+const current_route = "portfolio"
+
 const SidebarNavigation = () => (
     <Router>
         <div className="ui grid"> 
@@ -49,11 +51,11 @@ const SidebarNavigation = () => (
                     </div>
                     <br/>
                     <div>
-                        <Header as='h2'>
+                        <Header as='h2' className="font-color-white">
                             <Icon name='code' />
                             <Header.Content>
                               Tushar Kale
-                              <Header.Subheader>Software Engineer</Header.Subheader>
+                              <Header.Subheader className="font-color-white">Software Engineer</Header.Subheader>
                             </Header.Content>
                         </Header>
                     </div>
@@ -71,7 +73,10 @@ const SidebarNavigation = () => (
                     <div role="listitem" className="item">
                         <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
-                            <Link to="/portfolio"><h2>PORTFOLIO</h2></Link>
+                            {
+                                current_route == "portfolio"?<Link to="/portfolio" className="active"><h2>PORTFOLIO</h2></Link>:
+                                <Link to="/portfolio"><h2>PORTFOLIO</h2></Link>
+                            }
                         </div>
                     </div>
                     <div role="listitem" className="item">

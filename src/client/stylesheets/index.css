@@ -4,7 +4,7 @@
 */
 .full_height{
 	height: 97.5vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@
     top: 0px;
     z-index: 2;
     background: black;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .home-intro-image {
@@ -200,9 +200,21 @@
 }
 
 .bg-color {
-  background-color: #e2e2e2;
+  background-color: black;
 }
 
 .custom-font {
   font-size: 16px;
+}
+
+.ui .segment {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.font-color-white{
+  color : white !important;
+}
+
+.active {
+  background-color: #fff
 }
