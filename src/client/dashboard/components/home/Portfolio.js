@@ -8,7 +8,7 @@ class ComponentDashboardPortfolio extends Component {
 			{
 				_id : "1", 
 				company_name: "Instant Procurement Services Pvt Ltd.",
-				position 	: "Assitant Manager - Technical",
+				position 	: "Deputy Manager - Technical",
 				start_date 	: new Date(2017, 10, 24, 10, 33, 30, 0),
 				end_date    : undefined
 			},

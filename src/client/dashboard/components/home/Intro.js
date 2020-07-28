@@ -8,7 +8,7 @@ class ComponentDashboardIntro extends Component {
     		   <div className="home-intro">
                     <div className="home-intro-container">
                         <div className="overlay" />
-                        <Image className="home-intro-image" alt="Tushar kale intro image" src="/portfolio/img/waterfall.jpg" />
+                        <Image className="home-intro-image" alt="Tushar kale intro image" src={ process.env.PUBLIC_URL+"/portfolio/img/waterfall.jpg" } />
                     </div>
                     <br/><br/>
                     <div className="home-intro-content">

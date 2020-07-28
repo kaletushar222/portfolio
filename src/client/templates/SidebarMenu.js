@@ -38,7 +38,7 @@ class ComponentSidebarMenu extends Component {
         		<Sidebar as={Menu} animation='uncover' direction='left'  vertical visible>
 		  			<Menu.Item>
 			  			<Card
-						    image='/portfolio/img/Profile-white-bg.png'
+						    image={ process.env.PUBLIC_URL+'/portfolio/img/Profile-white-bg.png'}
 						    header='Tushar Kale'
 						    meta='Software Engineer'
 						    description=''

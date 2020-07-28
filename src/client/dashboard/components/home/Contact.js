@@ -13,7 +13,7 @@ class ComponentDashboardContact extends Component {
                     <h1><strong>Contact Me</strong></h1>
                     <div className="ui list">
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/google.png" alt="google" />
+                            <img className="ui avatar image" src={ process.env.PUBLIC_URL+"/portfolio/img/google.png" } alt="google" />
                             <div className="content">
                                <b>Gmail</b>
                                 <div className="description">
@@ -23,7 +23,7 @@ class ComponentDashboardContact extends Component {
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/linkedin.png" alt="linkedin" />
+                            <img className="ui avatar image" src={ process.env.PUBLIC_URL+"/portfolio/img/linkedin.png"} alt="linkedin" />
                             <div className="content">
                                 <b>LinkedIn</b>
                                 <div className="description">
@@ -33,7 +33,7 @@ class ComponentDashboardContact extends Component {
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/github.png" alt="github"/>
+                            <img className="ui avatar image" src={ process.env.PUBLIC_URL+"/portfolio/img/github.png" } alt="github"/>
                             <div className="content">
                                 <b>Github</b>
                                 <div className="description">
@@ -43,7 +43,7 @@ class ComponentDashboardContact extends Component {
                         </div>
                         <br/>
                         <div className="item">
-                            <img className="ui avatar image" src="/portfolio/img/fb.png" alt="facebook" />
+                            <img className="ui avatar image" src={ process.env.PUBLIC_URL+"/portfolio/img/fb.png" } alt="facebook" />
                             <div className="content">
                                 <b>Facebook</b>
                                 <div className="description">
