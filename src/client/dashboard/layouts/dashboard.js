@@ -80,7 +80,7 @@ const SidebarNavigation = () => (
                     <div role="listitem" className="item">
                         <i aria-hidden="true" className="angle right large icon middle aligned"></i>
                         <div className="content">
-                            <a href={ process.env.PUBLIC_URL +"/portfolio/pdf/TusharKale.pdf" }><h2>MY CV</h2></a>
+                            <a href={ process.env.PUBLIC_URL +"/portfolio/pdf/TusharKale.pdf" } target="_blank"> <h2>MY CV</h2></a>
                         </div>
                     </div>
                     <div role="listitem" className="item">

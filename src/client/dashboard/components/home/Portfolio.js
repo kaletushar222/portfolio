@@ -45,6 +45,10 @@ class ComponentDashboardPortfolio extends Component {
 						'description' : "NoSQL Database"
 					},
 					{
+						'name' : "ReactJS",
+						'description' : "JavaScript Library"
+					},
+					{
 						'name' : "Materialize",
 						'description' : "Front-end Framework"
 					}
