@@ -27,7 +27,7 @@ class ComponentDashboardPortfolio extends Component {
 				project_description : "B2B Ecommerce web application",
 				description_points  :[
 					"The project “ProcMart” is a tech enabled B2B platform which connects industry buyers to sellers through quotations with a good user interface.",
-					"Application is developed using MeteorJS and native JavaScript which aided in developing UI/UX skill.",
+					"Application is developed using MeteorJS and ReactJs as frontend which aided in developing UI/UX skill.",
 					"Designed schemas for CRUD operations using AutoForms with database being MongoDB",
 					"Automated the billing system with emails which helped the operations department in better handling of invoices and tax calculations.",
 					"Generated Excel-sheet for Sales and Purchase reports through software to reduce paperwork for Finance department.",
