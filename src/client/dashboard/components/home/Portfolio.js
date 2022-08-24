@@ -7,22 +7,54 @@ class ComponentDashboardPortfolio extends Component {
 		const companies = [
 			{
 				_id : "1", 
-				company_name: "Instant Procurement Services Pvt Ltd.",
-				position 	: "Deputy Manager - Technical",
-				start_date 	: new Date(2017, 10, 24, 10, 33, 30, 0),
+				company_name: "Accenture",
+				position 	: "Sr. Software Developer",
+				start_date 	: new Date(2021, 5, 1),
 				end_date    : undefined
 			},
 			{
 				_id : "2", 
+				company_name: "Instant Procurement Services Pvt Ltd.",
+				position 	: "Deputy Manager - Technical",
+				start_date 	: new Date(2017, 10, 24),
+				end_date    : new Date(2021, 4, 31)
+			},
+			{
+				_id : "3", 
 				company_name: "LBT Mind Technologies Pvt Ltd.",
 				position 	: "Java Developer",
-				start_date 	: new Date(2016, 11, 10, 10, 33, 30, 0),
-				end_date    : new Date(2017, 5, 10, 10, 33, 30, 0)
+				start_date 	: new Date(2016, 11, 10),
+				end_date    : new Date(2017, 5, 10)
 			}
 		]
 		const projects  = [
 			{
 				company_id : "1",
+				project_name : "Help Me Choose",
+				project_description : "Healthcare web application",
+				description_points :[
+				],
+				technologies : [
+					{
+						'name' : "ReactJS",
+						'description' : "JavaScript Library"
+					},
+					{
+						'name' : "Fiber UI",
+						'description' : "Frontend framework developed by client"
+					},
+					{
+						'name' : "AEM",
+						'description' : "Adobe experience manager"
+					},
+					{
+						'name' : "Jenkins",
+						'description' : "DevOps tool"
+					},
+				]
+			},
+			{
+				company_id : "2",
 				project_name : "ProcMart",
 				project_description : "B2B Ecommerce web application",
 				description_points  :[
@@ -56,7 +88,7 @@ class ComponentDashboardPortfolio extends Component {
 				]
 			},
 			{
-				company_id : "1",
+				company_id : "2",
 				project_name : "ProcBaba",
 				project_description : "Website builder platform.",
 				description_points :[
@@ -87,9 +119,8 @@ class ComponentDashboardPortfolio extends Component {
 				]
 			},
 
-
 			{
-				company_id : "2",
+				company_id : "3",
 				project_name : "Bizgati",
 				project_description : "Website builder platform.",
 				description_points :[
@@ -118,7 +149,7 @@ class ComponentDashboardPortfolio extends Component {
 			<div className="full_height" style={{marginLeft: '2%'}}>
 				<br />
 				<h1><strong>PORTFOLIO</strong></h1>
-				<h4>All frontend and backend part of below projects are done by me</h4>
+				{/*<h4>All frontend and backend part of below projects are done by me</h4> */}
 			    {
 					companies.map((company, company_key) =>{
 						return(
@@ -207,6 +238,7 @@ class ComponentDashboardPortfolio extends Component {
 					  	)
 				  	})
 				}
+				<br/><br/><br/><br/>
 			</div>
 		)
 	}
