@@ -65,6 +65,7 @@
 	background: linear-gradient(to right, #494964, #6f6f89);
   position: "fixed" !important;
   width: 19%;
+  z-index: 1;
 }
 
 .social-icons {
@@ -222,4 +223,9 @@
 
 .link-color{
   color: #fff;
+}
+
+.main-container {
+  margin-left: 19%;
+  position: relative;
 }

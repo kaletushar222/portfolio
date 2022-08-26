@@ -41,22 +41,18 @@ const current_route = window.location.pathname
 
 const SidebarNavigation = () => (
     <Router>
-        <div className="ui grid"> 
-            <div className="three wide column"> 
-                <ComponentSidebar/>
-            </div>
-            <div className="thirteen wide column">
-                {routes.map((route, index) => (
-                    <Route
-                        key={index}
-                        path={route.path}
-                        exact={route.exact}
-                        component={route.main}
-                    />
-                ))}
-            </div>
-        </div>
-  </Router>
+		<ComponentSidebar/>
+		<div className='main-container'>
+			{routes.map((route, index) => (
+				<Route
+					key={index}
+					path={route.path}
+					exact={route.exact}
+					component={route.main}
+				/>
+			))}
+		</div>
+  	</Router>
 )
 
 export default SidebarNavigation
