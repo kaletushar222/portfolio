@@ -12,6 +12,7 @@ import ComponentDashboardContact from '../components/home/Contact';
 import ComponentDashboardIntro from '../components/home/Intro';
 import ComponentDashboardPortfolio from '../components/home/Portfolio';
 import ComponentSidebar from '../../templates/Sidebar';
+import ComponentMobileNavigation from '../../templates/MobileNavigation'
 
 const routes = [
   {
@@ -42,6 +43,7 @@ const current_route = window.location.pathname
 const SidebarNavigation = () => (
     <Router>
 		<ComponentSidebar/>
+    <ComponentMobileNavigation/>
 		<div className='main-container'>
 			{routes.map((route, index) => (
 				<Route

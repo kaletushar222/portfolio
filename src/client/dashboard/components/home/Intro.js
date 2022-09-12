@@ -12,9 +12,9 @@ class ComponentDashboardIntro extends Component {
                     </div>
                     <br/><br/>
                     <div className="home-intro-content">
-                        <h1><strong>Hii , I'm Tushar,</strong></h1>
-                        <h2>A software engineer specialized in both </h2>
-                        <h2><strong className="custom_yellow">front-end</strong> and <strong className="custom_blue">back-end</strong></h2>
+                        <h1><strong className='home-intro-heading'>Hii , I'm Tushar,</strong></h1>
+                        <h2 className='home-intro-description'>A software engineer specialized in both </h2>
+                        <h2 className='home-intro-description-2'><strong className="custom_yellow">front-end</strong> and <strong className="custom_blue">back-end</strong></h2>
                     </div>
                 </div>
             </div>

@@ -4,13 +4,12 @@ class ComponentDashboardContact extends Component {
   
 	render() {
         return(
-        	<div className="full_height ">
+        	<div className="full_height contact">
             <br/><br/>
-            <div className="ui grid">
-                <div className="one wide column">
-                </div>
-                <div className="ui segment twelve wide column">
-                    <h1><strong>Contact Me</strong></h1>
+            <div>
+                <h1><strong>Contact Me</strong></h1>
+                <br/>
+                <div className="ui segment">
                     <div className="ui list">
                         <div className="item">
                             <img className="ui avatar image" src={ process.env.PUBLIC_URL+"/portfolio/img/google.png" } alt="google" />
