@@ -1,12 +1,12 @@
 const projects  = [
     {
         company_id : "1",
-        project_name : "Help Me Choose",
+        project_name : "Healthcare shopping cart",
         project_description : "Healthcare web application",
         description_points :[
-            "Help me choose is a web application to facilitate the process of searching and enrolling the best health care plan for the member of the application.",
+            "Healthcare shopping cart is a web application to facilitate the process of searching and enrolling the best health care plan for the member of the application.",
             "The app takes a user's entry such as age, address and other preferences based on that app suggests a recommended health insurance plan for the user.",
-            "Help me choose also provides the option to locate an agent based on the agent's name, the agency name user can also request a new agent by providing information.",
+            "Healthcare shopping cart also provides the option to locate an agent based on the agent's name, the agency name user can also request a new agent by providing information.",
             "It is developed using React Js and Fiber UI (front-end framework developed by the client).",
             "Designed functional, responsive, reusable components with all accessibility features for people with disabilities.",
             "Interact with the scrum team on a regular basis to understand and develop user stories.",
@@ -34,10 +34,10 @@ const projects  = [
     },
     {
         company_id : "2",
-        project_name : "ProcMart",
+        project_name : "Procurement Application",
         project_description : "B2B Ecommerce web application",
         description_points  :[
-            "The ProcMart project is a technological B2B platform that links buyers in the industry to sellers through quotations with a good user interface.",
+            "The project is a technological B2B platform that links buyers in the industry to sellers through quotations with a good user interface.",
             "The application is developed using MeteorJS and ReactJs as frontend which helped to develop the UI/UX skill.",
             "designed schemas for CRUD operations using AutoForms with the database being MongoDB.",
             "Automated the billing system with emails which helped the operations department in better handling of invoices and tax calculations.",
